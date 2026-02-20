@@ -6,7 +6,7 @@ with open('catboost_model_package.pkl','rb') as f:
     model_package = pickle.load(f)
 
 model=model_package['model']
-st_title("Titanic Survival Prediction")
+st.title("Titanic Survival Prediction")
 st.write("Enter the details of the passenger to predict survival probability.")
 
 Pclass = st.selectbox("Passenger Class (Pclass)", [1, 2, 3])
@@ -55,4 +55,3 @@ if st.button("Predict"):
 
 
     
-
