@@ -53,3 +53,6 @@ if st.button("Predict"):
         st.success("The passenger is likely to survive.")
     else:        st.error("The passenger is unlikely to survive.")
 
+
+    
+
